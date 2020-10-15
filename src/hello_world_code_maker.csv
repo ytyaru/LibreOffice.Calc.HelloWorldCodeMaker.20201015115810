@@ -1,0 +1,56 @@
+Group,Language,Code
+Programming,C,"#include <stdio.h>
+
+main( )
+{
+  printf(""hello, world\n"");
+}"
+Programming,C++,"#include <iostream>
+
+using namespace std;
+
+int main(){
+  cout << ""Hello world."" << endl;
+  return 0;
+}"
+Programming,Rust,"fn main() {
+    // 世界よ、こんにちは
+    Println!(""Hello, world!"");
+}"
+Programming,C#,"using System;
+
+public class Hello{
+  public static void Main(){
+    Console.WriteLine(""hello world!"");
+  }
+}"
+Programming,Java,"class HelloWorld {
+ public static void main(String[] args) {
+ System.out.println(""Hello, world."");
+ }
+}"
+Script,Python,"print(""Hello world!"")"
+Script,Ruby,"print ""Hello World"""
+,Go,"package main
+
+import ""fmt""
+
+func main() {
+  fmt.Printf(""Hello world\n"")
+}"
+DomainSpecific,Bash,echo ‘Hello World’
+DomainSpecific,SQL,"create table T(id int primary key);
+insert into T values(0),(1),(2);
+select * from T where id=0;"
+Markup,HTML,"<!doctype html>
+<html>
+<head>
+  <meta charset=""utf-8"">
+  <title></title>
+  <link rel=""stylesheet"" href=""css/main.css"">
+  <script src=""js/main.js""></script>
+</head>
+<body>
+</body>
+</html>"
+Markup,Markdown,# Hello world
